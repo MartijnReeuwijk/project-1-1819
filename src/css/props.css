@@ -4,3 +4,9 @@
 .capitalize {
   text-transform: capitalize;
 }
+.bottomPos{
+  bottom: -100vh;
+}
+.topPos{
+  bottom: 0;
+}

@@ -1,4 +1,4 @@
-var fakedata = [
+export const fakedata = [
   {
     studie: "rechten",
     icon: "rechten"
@@ -25,7 +25,7 @@ var fakedata = [
   }
 ];
 
-function makestudieElements() {
+export function makestudieElements() {
   var elm = document.getElementsByClassName("iconBlockHolder")[0];
   fakedata.forEach(data => {
     elm.innerHTML += `

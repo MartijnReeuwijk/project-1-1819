@@ -2,21 +2,37 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #e2e1e0;
+  overflow: hidden;
+}
+
 main {
   font-family: "Avenir", Arial, sans-serif;
   width: 100vw;
-  height: 100vh;
   background-color: #e2e1e0;
-  /* background-color: #ff0000; */
 }
+
+.textholder {
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #e2e1e0;
+}
+
 .iconBlockHolder {
-  width: 100vw;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
   height: auto;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
 }
+
 .mainH1 {
   width: 100%;
   line-height: 50px;
@@ -24,8 +40,8 @@ main {
   text-align: center;
   font-weight: bold;
 }
+
 .iconBlock {
-  /* width: 100%; */
   width: 200px;
   height: 200px;
   margin: 5px;
@@ -37,7 +53,10 @@ main {
   position: relative;
   flex-direction: column;
   border: 1px solid #ff0000;
+  z-index: 1;
+  cursor: pointer;
 }
+
 .iconBlock p {
   width: 100%;
   height: 25px;
@@ -45,11 +64,54 @@ main {
   padding: 5px;
   border-top: 1px solid black;
 }
+
 .iconBlok-icon {
   width: 100%;
   height: 100%;
 }
+
 .iconBlok-icon img {
   width: 150px;
   height: auto;
+}
+
+.mapholder {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background-color: white;
+  z-index: 2
+}
+
+.mapbutton {
+  width: 100vw;
+  height: 50px;
+  background-color: red;
+  display: flex;
+  text-align: center;
+  position: relative;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.mapIcon {
+  width: 50px;
+  height: 50px;
+  display: inline-flex;
+  margin: 0 auto;
+  cursor: pointer;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("../image/icons/mapicon.svg");
+}
+
+.mapPdf {
+  width: 100%;
+  height: 100%;
+}
+
+.mapPdf object {
+  width: 100%;
+  height: 100%;
 }
