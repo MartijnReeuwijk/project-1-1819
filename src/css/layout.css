@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+main {
+  font-family: "Avenir", Arial, sans-serif;
+  width: 100vw;
+  height: 100vh;
+  background-color: #e2e1e0;
+  /* background-color: #ff0000; */
+}
+.iconBlockHolder {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.mainH1 {
+  width: 100%;
+  line-height: 50px;
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+.iconBlock {
+  /* width: 100%; */
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+  padding: 10px;
+  background-color: #ffffff;
+  color: black;
+  display: inline-flex;
+  text-align: center;
+  position: relative;
+  flex-direction: column;
+  border: 1px solid #ff0000;
+}
+.iconBlock p {
+  width: 100%;
+  height: 25px;
+  font-size: 20px;
+  padding: 5px;
+  border-top: 1px solid black;
+}
+.iconBlok-icon {
+  width: 100%;
+  height: 100%;
+}
+.iconBlok-icon img {
+  width: 150px;
+  height: auto;
+}
