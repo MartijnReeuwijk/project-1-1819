@@ -1,57 +1,58 @@
+// actually make the maps
 const fakedata = [
   {
-    studie: "Economie en Bedrijfskunde",
+    studie: "economie en Bedrijfskunde",
     icon: "eco",
     etage: "4",
-    map: "selectdeze"
+    map: "economie"
   },
   {
     studie: "Geesteswetenschappen",
     icon: "brain",
     etage: "4",
-    map: "selectdeze"
+    map: "economie"
   },
   {
     studie: "Geneeskunde",
     icon: "doctor",
     etage: "6",
-    map: "selectdeze"
+    map: "economie"
   },
   {
     studie: "Maatschappij- en Gedragswetenschappen",
     icon: "community",
     etage: "4",
-    map: "selectdeze"
+    map: "economie"
   },
   {
     studie: "Natuurwetenschappen",
     icon: "magnet",
     etage: "6",
-    map: "selectdeze"
+    map: "economie"
   },
   {
     studie: "Wiskunde",
     icon: "math",
     etage: "4",
-    map: "selectdeze"
+    map: "economie"
   },
   {
     studie: "Informatica",
     icon: "ict",
     etage: "4",
-    map: "selectdeze"
+    map: "economie"
   },
   {
     studie: "Rechtsgeleerdheid",
     icon: "rechten",
     etage: "4",
-    map: "selectdeze"
+    map: "rechten"
   },
   {
     studie: "Tandheelkunde",
     icon: "teeth",
     etage: "4",
-    map: "selectdeze"
+    map: "economie"
   }
 ];
 

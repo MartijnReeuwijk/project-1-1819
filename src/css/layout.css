@@ -71,17 +71,17 @@ main {
 
 .iconBlock p {
   overflow: hidden;
+  overflow-y: scroll;
 
   width: 100%;
   height: 25px;
-  line-height: 25px;
 
   text-overflow: ellipsis;
-  overflow-y: scroll;
 
   border-top: 1px solid black;
 
   font-size: 16px;
+  line-height: 25px;
 }
 
 .iconBlok-icon {
@@ -92,13 +92,14 @@ main {
 .iconBlok-icon img {
   width: 150px;
   height: auto;
+
   pointer-events: none;
 }
 
 .mapholder {
-  top: 0;
   position: absolute;
   z-index: 2;
+  top: 0;
 
   width: 100vw;
   height: auto;
@@ -137,29 +138,45 @@ main {
 }
 
 .mapPdf {
-  overflow-y: scroll;
-
   width: 100%;
 }
 
 .mapindex {
-  position: absolute;
+  position: fixed;
+
+  overflow: scroll;
+
+  width: 200px;
+  height: 300px;
+  margin: 5px;
+  padding: 10px;
+
+  border: 1px solid red;
+  background-color: #e2e1e0;
+}
+.indexCard {
+  float: left;
+
+  padding: 5px;
+}
+.indexCard * {
+  padding: 5px;
+}
+.loadExaple {
+  position: fixed;
+  top: 360px;
 
   width: 200px;
   height: auto;
   margin: 5px;
   padding: 10px;
 
+  cursor: pointer;
+  text-align: center;
+
+  border: 1px solid red;
   background-color: #e2e1e0;
 }
-.indexCard {
-  float: left;
-  padding: 5px;
-}
-.indexCard * {
-  float: left;
-}
-
 .mapPdf img {
   width: 100%;
   height: auto;
