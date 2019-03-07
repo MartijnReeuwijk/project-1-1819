@@ -1,12 +1,21 @@
+* {
+  font-family: "Avenir", Arial, sans-serif;
+}
 .borderRadius {
   border-radius: 10px;
 }
 .capitalize {
   text-transform: capitalize;
 }
-.bottomPos{
+.bottomPos {
   bottom: -100vh;
 }
-.topPos{
+.topPos {
   bottom: 0;
+}
+.leftPos {
+  left: -100vw;
+}
+.rightPos {
+  left: 0;
 }
