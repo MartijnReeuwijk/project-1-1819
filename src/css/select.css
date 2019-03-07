@@ -39,15 +39,26 @@ h1 {
 
 .item {
   background: white;
-  color: white;
+  color: black;
   max-width: 450px;
   width: calc(100% - 20px);
   padding: 20px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 245px;
+  font-size: 75px;
   margin: 10px;
   height: 300px;
   overflow: auto;
   border: 2px solid red;
   display: inline-flex;
+}
+a {
+  text-decoration: none;
+}
+.item p {
+  width: 100%;
+  text-decoration: none;
 }
 
 .item:hover {
