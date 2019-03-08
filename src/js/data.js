@@ -5,27 +5,27 @@ export const kasten = [
     subjects: [
       {
         name: "De onderneming",
-        color: "green",
+        color: "groen",
         value: "351.1"
       },
       {
         name: "economische order",
-        color: "blue",
+        color: "blauw",
         value: "351"
       },
       {
         name: "belasting",
-        color: "yellow",
+        color: "geel",
         value: "346.2"
       },
       {
         name: "openbare financien",
-        color: "orange",
+        color: "oranje",
         value: "346"
       },
       {
         name: "waarde en prijsleer",
-        color: "purple",
+        color: "paars",
         value: "342"
       }
     ]
@@ -36,27 +36,27 @@ export const kasten = [
     subjects: [
       {
         name: "misdaden",
-        color: "orange",
+        color: "oranje",
         value: "396"
       },
       {
         name: "jeudgcriminaliteit",
-        color: "blue",
+        color: "blauw",
         value: "396.7"
       },
       {
         name: "familierecht",
-        color: "green",
+        color: "groen",
         value: "397.1"
       },
       {
         name: "kinderrecht",
-        color: "purple",
+        color: "paars",
         value: "397.1"
       },
       {
         name: "rechtspersoon",
-        color: "orange",
+        color: "oranje",
         value: "397.2"
       },
       {
