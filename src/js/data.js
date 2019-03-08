@@ -4,12 +4,12 @@ export const kasten = [
     etage: "5",
     subjects: [
       {
-        name: "deonderneming",
+        name: "De onderneming",
         color: "green",
         value: "351.1"
       },
       {
-        name: "economische_order",
+        name: "economische order",
         color: "blue",
         value: "351"
       },
@@ -19,12 +19,12 @@ export const kasten = [
         value: "346.2"
       },
       {
-        name: "openbare_financien",
+        name: "openbare financien",
         color: "orange",
         value: "346"
       },
       {
-        name: "waarde_en_prijsleer",
+        name: "waarde en prijsleer",
         color: "purple",
         value: "342"
       }
