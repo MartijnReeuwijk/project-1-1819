@@ -1,7 +1,6 @@
 // oke get this clicked element en pak dan de Id er uit dit is easy
 //       document.querySelector('#hello').addEventListener('click', hello)
 import { kasten } from "../data.js";
-console.log(kasten);
 
 export function addClickMap() {
   // So you need to slice this code
@@ -41,9 +40,7 @@ export function makeIndex(this_id) {
   // So this works, but since i got incomplete maps it doesnt work
   let index = document.getElementsByClassName("mapindex")[0];
   index.innerHTML = ``;
-  console.log(this_id);
   let filterKast = kasten.filter(data => data.name === this_id);
-  console.log(filterKast);
 
   filterKast.forEach(data => {
     index.innerHTML += `

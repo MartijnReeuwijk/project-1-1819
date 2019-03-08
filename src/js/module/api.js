@@ -7,8 +7,5 @@ export async function getData(search, type) {
     "search/" + search + "&facet=Type(" + type + "){10}"
   );
 
-  const bla = await api.availability("2E7B6C8F62F348A0");
-  console.log(bla);
-
   stream.pipe(console.log).catch(console.error);
 }
