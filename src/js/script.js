@@ -5,11 +5,11 @@ import { makeIndex } from "./module/map.js";
 import { addClickMap } from "./module/map.js";
 import { removeClickMap } from "./module/map.js";
 import { getData } from "./module/api.js";
-import { API } from "/node_modules/oba-wrapper/js/index.js";
+// import { API } from "/node_modules/oba-wrapper/js/index.js";
 // import { getStudie } from "./module/studie.js";
 
 makestudieElements();
 addClickMap();
 removeClickMap();
-getData("economie", "book");
+// getData("economie", "book");
 makeIndex();
